@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticalLINQ", "PracticalLINQ.csproj", "{D6EF0B1E-C994-4453-A443-BD8DBE34237B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Common\Common.csproj", "{8C0BD79C-4A03-464C-8DF1-911A284F67AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticalLINQTests", "UnitTestProject1\PracticalLINQTests.csproj", "{C444F599-5C3F-4580-AD18-87EE27B6B65D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D6EF0B1E-C994-4453-A443-BD8DBE34237B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6EF0B1E-C994-4453-A443-BD8DBE34237B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6EF0B1E-C994-4453-A443-BD8DBE34237B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0BD79C-4A03-464C-8DF1-911A284F67AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0BD79C-4A03-464C-8DF1-911A284F67AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0BD79C-4A03-464C-8DF1-911A284F67AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0BD79C-4A03-464C-8DF1-911A284F67AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C444F599-5C3F-4580-AD18-87EE27B6B65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C444F599-5C3F-4580-AD18-87EE27B6B65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C444F599-5C3F-4580-AD18-87EE27B6B65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C444F599-5C3F-4580-AD18-87EE27B6B65D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

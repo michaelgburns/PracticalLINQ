@@ -1,1 +1,5 @@
 C:\dev\PracticalLINQ\bin\Debug\PracticalLINQ.exe.config
+C:\dev\PracticalLINQ\bin\Debug\PracticalLINQ.exe
+C:\dev\PracticalLINQ\bin\Debug\PracticalLINQ.pdb
+C:\dev\PracticalLINQ\obj\Debug\PracticalLINQ.exe
+C:\dev\PracticalLINQ\obj\Debug\PracticalLINQ.pdb
