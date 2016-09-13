@@ -1,0 +1,1 @@
+C:\dev\PracticalLINQ\bin\Debug\PracticalLINQ.exe.config
