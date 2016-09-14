@@ -5,3 +5,5 @@ C:\dev\PracticalLINQ\UnitTestProject1\bin\Debug\Common.pdb
 C:\dev\PracticalLINQ\UnitTestProject1\obj\Debug\PracticalLINQTests.csprojResolveAssemblyReference.cache
 C:\dev\PracticalLINQ\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 C:\dev\PracticalLINQ\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\dev\PracticalLINQ\UnitTestProject1\bin\Debug\BusinessLayer.dll
+C:\dev\PracticalLINQ\UnitTestProject1\bin\Debug\BusinessLayer.pdb

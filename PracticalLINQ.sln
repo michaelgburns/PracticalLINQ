@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Common\Common.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticalLINQTests", "UnitTestProject1\PracticalLINQTests.csproj", "{C444F599-5C3F-4580-AD18-87EE27B6B65D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{7F88B809-CBD6-4FD0-9F16-CA33E2365244}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C444F599-5C3F-4580-AD18-87EE27B6B65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C444F599-5C3F-4580-AD18-87EE27B6B65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C444F599-5C3F-4580-AD18-87EE27B6B65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F88B809-CBD6-4FD0-9F16-CA33E2365244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F88B809-CBD6-4FD0-9F16-CA33E2365244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F88B809-CBD6-4FD0-9F16-CA33E2365244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F88B809-CBD6-4FD0-9F16-CA33E2365244}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

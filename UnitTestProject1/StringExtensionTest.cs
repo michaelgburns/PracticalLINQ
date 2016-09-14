@@ -14,8 +14,7 @@ namespace UnitTestProject1
             var source = "the return of the king";
             var expected = "The Return Of The King";
 
-            //Act
-            //var result = StringExtensions.ConvertToTitleCase(source);
+            //Act            
             var result = source.ConvertToTitleCase();
 
             //Assert

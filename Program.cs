@@ -10,6 +10,12 @@ namespace PracticalLINQ
     {
         static void Main(string[] args)
         {
+            string myString;
+            myString = null;
+
+            Console.WriteLine("here" + myString);
+
+            Console.ReadLine();
         }
     }
 }
