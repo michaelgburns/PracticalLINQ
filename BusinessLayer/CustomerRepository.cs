@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,13 +13,27 @@ namespace BusinessLayer
         {
             Customer foundCustomer = null;
 
-            var customers = from c in customerList
-                            where c.CustomerId == customerId
-                            select c;
+            //var customers = from c in customerList
+            //                where c.CustomerId == customerId
+            //                select c;
+            //foundCustomer = customers.First();
 
-            foundCustomer = customers.First();
+            foundCustomer = customerList.FirstOrDefault(c => c.CustomerId == customerId);
+
             return foundCustomer;
         }
+        
+        public IEnumerable<Customer> SortByName(List<Customer> customerList)
+        {
+            return customerList.OrderBy(c => c.FirstName).ThenBy(c => c.LastName);
+        }
+
+        public IEnumerable<Customer> SortByNameReverse(List<Customer> customerList)
+        {
+            //return customerList.OrderByDescending(c => c.LastName).ThenByDescending(c => c.FirstName);
+            return SortByName(customerList).Reverse();
+        }
+
 
 
         public List<Customer> Retrieve()
