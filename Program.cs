@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,10 +11,9 @@ namespace PracticalLINQ
     {
         static void Main(string[] args)
         {
-            string myString;
-            myString = null;
-
-            Console.WriteLine("here" + myString);
+            CustomerRepository customerRepository = new CustomerRepository();
+            CustomerTypeRepository ctr = new CustomerTypeRepository();
+            customerRepository.GetNamesAndType(customerRepository.Retrieve(), ctr.Retrieve());
 
             Console.ReadLine();
         }

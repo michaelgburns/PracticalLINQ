@@ -3,3 +3,6 @@ C:\dev\PracticalLINQ\bin\Debug\PracticalLINQ.exe
 C:\dev\PracticalLINQ\bin\Debug\PracticalLINQ.pdb
 C:\dev\PracticalLINQ\obj\Debug\PracticalLINQ.exe
 C:\dev\PracticalLINQ\obj\Debug\PracticalLINQ.pdb
+C:\dev\PracticalLINQ\bin\Debug\BusinessLayer.dll
+C:\dev\PracticalLINQ\bin\Debug\BusinessLayer.pdb
+C:\dev\PracticalLINQ\obj\Debug\PracticalLINQ.csprojResolveAssemblyReference.cache

@@ -58,6 +58,30 @@ namespace BusinessLayer
             return query;
         }
 
+        public dynamic GetNamesAndType(List<Customer> customer, List<CustomerType> customerTypeList)
+        {
+            //var query = from c in customer
+            //            from t in customerTypeList
+            //            where c.CustomerTypeId == t.CustomerTypeId
+            //            select new { Name = c.LastName + "," + c.FirstName, CustomerTypeName =  t.TypeName };
+
+            var query = customer.Join(customerTypeList,
+                                    c => c.CustomerTypeId,
+                                    ct => ct.CustomerTypeId,
+                                    (c, ct) => new
+                                    {
+                                        Name = c.LastName + ", " + c.FirstName,
+                                        CustomerTypeName = ct.TypeName
+                                    });
+
+            foreach (var item in query)
+            {
+                Console.WriteLine(item.Name + ": " + item.CustomerTypeName);
+            }
+
+            return query;
+        }
+
         public List<Customer> Retrieve()
         {
             List<Customer> custList = new List<Customer>
