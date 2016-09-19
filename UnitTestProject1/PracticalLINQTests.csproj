@@ -64,6 +64,10 @@
       <Project>{7f88b809-cbd6-4fd0-9f16-ca33e2365244}</Project>
       <Name>BusinessLayer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PracticalLINQ.csproj">
+      <Project>{d6ef0b1e-c994-4453-a443-bd8dbe34237b}</Project>
+      <Name>PracticalLINQ</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

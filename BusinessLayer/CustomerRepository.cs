@@ -35,6 +35,28 @@ namespace BusinessLayer
         }
 
 
+        public IEnumerable<string> GetNames(List<Customer> customerList)
+        {
+            var names = from c in customerList
+                        select c.FirstName + c.LastName;
+
+            var names2 = customerList.Select(c => c.FirstName + c.LastName);
+
+            return names2;
+        }
+
+        public dynamic GetNamesAndEmail(List<Customer> customerList)
+        {
+            
+            // this is just an example. In production code you would not return a dynamic in a method.
+            // you would use the code below in a class where is was needed and bind directly if needed.
+            var query = customerList.Select(c => new
+            {
+                Name = c.LastName +  ", " + c.FirstName,
+                c.EmailAddress
+            });
+            return query;
+        }
 
         public List<Customer> Retrieve()
         {
