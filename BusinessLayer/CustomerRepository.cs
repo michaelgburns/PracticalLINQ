@@ -90,6 +90,7 @@ namespace BusinessLayer
                 new Customer() {CustomerId = 2, FirstName = "Bilbo", LastName = "Baggins", EmailAddress = "bb@hob.me", CustomerTypeId = null},
                 new Customer() {CustomerId = 3, FirstName = "Samewise", LastName = "Gamee", EmailAddress = "sg@hob.me", CustomerTypeId = 1},
                 new Customer() {CustomerId = 4, FirstName = "Rosie", LastName = "Cotton", EmailAddress = "rc@hob.me", CustomerTypeId = 2}
+                new Customer() {CustomerId = 5, FirstName = "BranchB", LastName = "BranchB", EmailAddress = "rc@hob.me", CustomerTypeId = 2}
             };
 
             return custList;
