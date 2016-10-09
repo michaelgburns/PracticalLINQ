@@ -13,5 +13,7 @@ namespace BusinessLayer
         public string LastName { get; set; }
         public int? CustomerTypeId { get; set; }
         public string EmailAddress { get; set; }
+
+        public string TestProp { get; set; }
     }
 }
